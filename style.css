@@ -115,7 +115,7 @@ font-size: 3em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: rgb(237, 234, 153);
 }
