@@ -1,0 +1,253 @@
+/*
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Gabarito', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(237, 234, 153);
+}
+ .container > div{
+    width: 70vh;
+    height: 90vh;
+    background-color: whitesmoke;
+    border-radius: 1em;
+ 
+
+ }
+    
+.head-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(252, 237, 120, 0.197);
+    padding: 1.5em;
+    color: rgb(34, 35, 36);
+}
+.head-style  .action{
+    margin-top: 1em;
+}
+.head-style  .action [type="button"]{
+    border: none;
+    background-color: #123;
+    color: aliceblue;
+    padding: 0.2em;
+    border-radius: 10%;
+}
+.action [type="text"]{
+    border: dotted 1px;
+    border-radius: 5%;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 2em;
+}
+.temp-value{
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} 
+.temp-value h1{
+font-size: 3em;
+}
+.temp-value .dic{
+    margin: 0.5em;
+    font-size: small;
+    color: rgb(11, 25, 63);
+    text-decoration: underline;
+}
+.types-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.types-flex .types{
+    margin: 0.5em;
+    padding: em;
+    box-shadow: 0 0 4px #123, 0 0 8px #123;
+    text-align: justify;
+    height: max-content;
+    border-radius: 5%;
+    height: 25vh;
+    width: 8vw;
+}
+.types{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    align-items: center;
+}
+.types *{
+    margin: 0.5em;
+}
+.types i{
+    font-size: 3em;
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(237, 234, 153);
+}
+
+.container > div {
+    width: 70vh;
+    height: 90vh;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    /* padding: 2em; */
+}
+
+.head-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(252, 237, 120, 0.197);
+    padding: 1.5em;
+    color: rgb(34, 35, 36);
+}
+
+.head-style .action {
+    margin-top: 1em;
+}
+
+.head-style .action [type="button"] {
+    border: none;
+    background-color: #123;
+    color: aliceblue;
+    padding: 0.2em;
+    width: 4em;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.action [type="text"] {
+    width: 13vw;
+    border: dotted 1px;
+    border-radius: 5%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 2em;
+}
+
+.temp-value {
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temp-value h1 {
+    font-size: 3em;
+}
+
+.temp-value .dic {
+    margin: 0.5em;
+    font-size: small;
+    color: rgb(11, 25, 63);
+    text-decoration: underline;
+}
+
+.types-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.types-flex .types {
+    margin: 0.5em;
+    padding: em;
+    box-shadow: 0 0 4px #123, 0 0 8px #123;
+    text-align: justify;
+    height: max-content;
+    border-radius: 5%;
+    height: 25vh;
+    width: 8vw;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-evenly;
+    align-items: center;
+}
+
+.types * {
+    margin: 0.5em;
+}
+
+.types i {
+    font-size: 3em;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .container{
+        
+        height: 200vh;
+    }
+    .container > div {
+        height: 150vh;
+        width: 90vw;
+    }
+    
+    .types-flex .types {
+        width: 60vw;
+        height: 25vh;
+    }
+    .types-flex{
+        flex-direction: column;
+    }
+    .temp-value{
+        /* margin-top:0.5em; */
+    }
+    .action [type="text"]{
+        padding: 0.4em;
+        width: 40vw;
+    }
+    .value{
+        font-size: 1.5em;
+    }
+}
+
