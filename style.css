@@ -1,4 +1,4 @@
-
+/*
  *{
     margin: 0;
     padding: 0;
@@ -101,7 +101,7 @@ font-size: 3em;
     font-size: 3em;
 }
 
-/*
+*/
 
 * {
     margin: 0;
@@ -115,7 +115,7 @@ font-size: 3em;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 100vh;
     width: 100vw;
     background-color: rgb(237, 234, 153);
 }
@@ -125,7 +125,7 @@ font-size: 3em;
     height: 90vh;
     background-color: whitesmoke;
     border-radius: 1em;
-    /* padding: 2em; 
+    /* padding: 2em; */
 }
 
 .head-style {
@@ -192,7 +192,7 @@ font-size: 3em;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-/*     margin-top: 1em; 
+    margin-top: 2em;
 }
 
 .types-flex .types {
@@ -200,8 +200,9 @@ font-size: 3em;
     padding: em;
     box-shadow: 0 0 4px #123, 0 0 8px #123;
     text-align: justify;
+    height: max-content;
     border-radius: 5%;
-    height: 20vh;
+    height: 25vh;
     width: 8vw;
 }
 
@@ -220,7 +221,7 @@ font-size: 3em;
     font-size: 3em;
 }
 
-/* Responsive Styles */ 
+/* Responsive Styles */
 @media only screen and (max-width: 768px) {
     .container{
         
